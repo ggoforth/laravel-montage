@@ -1,0 +1,21 @@
+{
+    "name": "editllc/laravel-montage",
+    "description": "",
+    "authors": [
+        {
+            "name": "Greg Goforth",
+            "email": "ggoforth@shift3tech.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.0.*",
+        "editllc/php-montage": "1.0.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Editllc\\LaravelMontage": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
