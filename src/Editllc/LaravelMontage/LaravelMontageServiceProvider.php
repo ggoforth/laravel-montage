@@ -3,6 +3,10 @@
 use Illuminate\Support\ServiceProvider;
 use Montage\Montage;
 
+/**
+ * Class LaravelMontageServiceProvider
+ * @package Editllc\LaravelMontage
+ */
 class LaravelMontageServiceProvider extends ServiceProvider {
 
 	/**
@@ -12,6 +16,9 @@ class LaravelMontageServiceProvider extends ServiceProvider {
 	 */
 	protected $defer = false;
 
+    /**
+     * Publish the config files to the right place.
+     */
     public function boot()
     {
         // Package configuration
